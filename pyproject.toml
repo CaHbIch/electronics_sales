@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "task-cc"
+version = "0.1.0"
+description = ""
+authors = ["ZooBycH <mz88@list.ru>"]
+readme = "README.md"
+packages = [{include = "task_cc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+djoser = "^2.1.0"
+psycopg2-binary = "^2.9.5"
+djangorestframework = "^3.14.0"
+django-environ = "^0.9.0"
+django-filter = "^22.1"
+djangorestframework-simplejwt = "^4.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
